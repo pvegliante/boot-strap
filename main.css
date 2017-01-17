@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+}
+
+.landing {
+    background-image: url('./images/monster.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.yellow-button {
+    color: yellow;
+}
+
+section {
+    min-height: 100vh;
+}
+
+section#About {
+    background-color: #;
+}
+
+section#Portfolio #gallery {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+#gallery figure {
+    max-width: 200px;
+    display: inline-block;
+}
+
+#gallery figure img {
+    width: 100%;
+}
+
+#gallery figcaption {
+    text-align: center;
+}
+
+#cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+#cards .card {
+    max-width: 400px;
+}
+
+.card img {
+    width: 100%;
+}
+
+section#Resume img {
+    display: inline-block;
+    max-width: 100px;
+    height: 100px;
+    margin: 5px;
+    margin: auto;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+img#resgallery {
+    height: 150px;
+}
+
+section.purple-title h2 {
+    color: purple;
+}
+
+button#BigRedButton {
+    background-color: rgb(101, 214, 21);
+    border-radius: 100%;
+    position: relative;
+    width: 85px;
+    height: 85px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 3px 0 0px rgb(50, 50, 50);
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    transition: all .3s;
+    left: 43.2%;
+    transform: translate(-57%, 360px);
+}
+
+button#BigRedButton:hover {
+    background-color: #fff;
+}
+
+button#BigRedButton:active {
+    box-shadow: none;
+    top: 3px;
+}
+
+form input {
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: thin;
+}
+
+form input:focus {
+    outline: none;
+    box-shadow: inset 0 1px 3px 0 #000, 0 2px 4px -2px blue;
+}
+
+form input[type="submit"] {
+    padding: 5px 15px;
+    background-color: green;
+    color: #000;
+    text-transform: capitalize;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+
+}
