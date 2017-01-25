@@ -13,9 +13,9 @@
 
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <audio id="audio" src="./Audio/swoosh.mp3"></audio>
                   <span class="sr-only">Toggle navigation</span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
@@ -24,31 +24,19 @@
                 <a class="navbar-brand" href="#">Peter Vegliante</a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <!-- <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Link</a></li>
-                </ul> -->
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Portfolio">Portfolio</a></li>
-                    <li><a href="#Resume">Resume</a></li>
-                    <li><a href="#Contact">Contact</a></li>
+                    <!-- <li><a href="#About">About</a></li> -->
+                    <li><a href="#Portfolio" class="btnSound">Portfolio</a></li>
+                    <li><a href="#Resume" class="btnSound">Resume</a></li>
+                    <li><a href="#Contact" class="btnSound">Contact</a></li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
 
-    <section id="landing" class="landing">
-        <button id="BigRedButton" type="button">Big Green Button</button>
-    </section>
-
     <section id="About" class="purple-title">
-        <h2>About</h2>
-        <hr>
+
     </section>
 
     <section id="Portfolio" class="purple-title">
@@ -71,61 +59,30 @@
             </figure>
             <figure>
                 <img src="./images/piano.jpg" alt="piano">
-                <figcaption><a href="http://pvegliante.fvi-grad.com/Music-Box/" target="_blank" rel="noopener" type="button" id="piano-Btn" class="btn btn-default btn-lg active">Piano</a></figcaption>
+                <figcaption><a href="http://pvegliante.fvi-grad.com/Music-Box/" target="_blank" rel="noopener" type="button" id="chest-Btn" class="btn btn-default btn-lg active">Piano</a></figcaption>
+            </figure>
+            <figure>
+                <img src="./images/chestyfront.png" alt="chest">
+                <figcaption><a href="https://pvegliante.github.io/tribute-page" target="_blank" rel="noopener" type="button" id="piano-Btn" class="btn btn-default btn-lg active">Tribute Page</a></figcaption>
             </figure>
         </div>
-
-        <!-- <div id="cards">
-            <div class="card">
-                <img src="./images/monster.jpg" alt="Monster">
-                <p>This is the God of War!</p>
-                <button type="BigRedButton">Click It</button>
-            </div>
-            <div class="card">
-                <img src="./images/r6.jpg" alt="r6">
-                <p>This is the God of War!</p>
-                <button type="BigRedButton">Click It</button>
-            </div>
-            <div class="card">
-                <img src="./images/gow.jpg" alt="God of War">
-                <p>This is the God of War!</p>
-                <button type="BigRedButton">Click It</button>
-            </div>
-            <div class="card">
-                <img src="./images/gow.jpg" alt="God of War">
-                <p>This is the God of War!</p>
-                <button type="BigRedButton">Click It</button>
-            </div>
-            <div class="card">
-                <img src="./images/gow.jpg" alt="God of War">
-                <p>This is the God of War!</p>
-                <button type="BigRedButton">Click It</button>
-            </div>
-            <div class="card">
-                <img src="./images/gow.jpg" alt="God of War">
-                <p>This is the God of War!</p>
-                <button type="BigRedButton">Click It</button>
-            </div>
-        </div> -->
-
         </div>
-
     </section>
 
     <section id="Resume">
-      <div class="container">
+        <div class="container">
 
             <h2>Resume</h2>
             <hr>
             <h3>Professional Summary</h3>
-            <li>Experience creating plans and budgets. Determining needs, direct cues, and work with other members of the production team to carry out the vision of the director. Conduct sight inspections to insure client satisfaction. Insure all company policies
-                are met and standard operations are being upheld. Write schedules and weekly/monthly security reports. Seeking a position as a network or system administrator.
+            <li>Experience creating plans and budgets. Determining needs, direct cues, and work with other members of the production team to carry out the vision of the director. Conduct sight inspections to insure client satisfaction. Insure all company
+                policies are met and standard operations are being upheld. Write schedules and weekly/monthly security reports. Seeking a position as a network or system administrator.
             </li>
             <img id="resgallery" src="./images/aplus.png" alt="aplus">
-            <img id="resgallery" src="./images/netplus1.jpg" alt="netplus">
-            <img id="resgallery" src="./images/seccert.jpg" alt="secplus">
-            <img id="resgallery" src="./images/windserv.png" alt="windserv">
-            <img id="resgallery" src="./images/ccna.png" alt="ccna">
+            <!-- <img id="resgallery" src="./images/netplus1.jpg" alt="netplus"> -->
+            <!-- <img id="resgallery" src="./images/seccert.jpg" alt="secplus"> -->
+            <!-- <img id="resgallery" src="./images/windserv.png" alt="windserv"> -->
+            <!-- <img id="resgallery" src="./images/ccna.png" alt="ccna"> -->
             <h3>Employment Experance</h3>
             <h4>Production Supervisor, Lighting Director, STR-MIAMI, Miami, FL		10/2011 to Present</h4>
             <li>Supervise systems integration of audio/video/computer and lighting systems, and new construction practices</li>
@@ -136,7 +93,7 @@
             <li>Conducted sight inspections to insure client satisfaction and to insure all company policies are met and standard operation procedures are being maintained</li>
             <li>Wrote schedules and weekly/monthly security reports</li>
 
-                <h4>Security Supervisor, FONTAINEBLEAU HOTEL, Miami Beach, FL		6/2008 to 9/2009</h4>
+            <h4>Security Supervisor, FONTAINEBLEAU HOTEL, Miami Beach, FL		6/2008 to 9/2009</h4>
             <li>Planned and assisted with escorts for high level diplomats and political figures</li>
             <li>Coordinated work schedules for security staff and contracted security</li>
             <li>Responded to all emergencies in the hotel and conducted in-depth investigations</li>
@@ -145,19 +102,19 @@
             <li>Made hotel keys with Saflok system</li>
             <h4>Puller/Loader, THE PRODUCE CONNECTION, Miami, FL			1/2008 to 2/2008</h4>
             <li>
-                 Stocked and pulled orders for customers Loaded refrigerated trucks and maintained a perfect level of quality for all products
+                Stocked and pulled orders for customers Loaded refrigerated trucks and maintained a perfect level of quality for all products
             </li>
             <h4>Driver, V & L CUSTOM CUT, Miami, FL						1/2007 to 4/2007</h4>
             <li>
-                 Delivered custom cut produce to customers throughout Dade and Broward counties
+                Delivered custom cut produce to customers throughout Dade and Broward counties
             </li>
             <li>
-                 Patrolled the hotel and surrounding areas, wrote reports, responded to limited emergency situations
+                Patrolled the hotel and surrounding areas, wrote reports, responded to limited emergency situations
             </li>
             <h4>Security Supervisor, THE RITZ CARLTON, Key Biscayne, FL			4/2005 to 9/2006</h4>
             <li>
-                 Supervised and assisted Loss Prevention officers in daily activities such as: patrolled the hotel, conducted surveillance of the surrounding area conducted investigations and questioned witnesses wrote reports responded to any and
-                all medical situations involving guests and visitors
+                Supervised and assisted Loss Prevention officers in daily activities such as: patrolled the hotel, conducted surveillance of the surrounding area conducted investigations and questioned witnesses wrote reports responded to any and all medical situations
+                involving guests and visitors
             </li>
             <h3>Education and Certifications</h3>
             <li>Florida Vocational Institute, Miami, FL 2016</li>
@@ -168,7 +125,7 @@
             <li>Security, Hotel and Lodging</li>
             <h3>Skills</h3>
             <li>They pay the bills!</li>
-      </div>
+        </div>
     </section>
 
     <section id="Contact">
@@ -178,21 +135,9 @@
             <input type="text" name="dest_email" value="pvegliante@fvi.edu" style="display: none">
             <input type="text" name="full_name" value="" placeholder="Full Name">
             <input type="date" name="ddate" value="" placeholder="Date">
-            <!-- <input type="time" name="hora" value="" placeholder="Time"> -->
             <input type="text" name="email" value="" placeholder="E-mail">
             <input type="text" name="subject" value="" placeholder="Subject">
             <input type="text" name="phone" value="" placeholder="Phone">
-            <!-- <input type="text" name="message" value="" placeholder="Message"> -->
-
-            <!-- <label for="Male-radio">Male</label>
-            <input id="Male-radio" type="checkbox" name="gender" value="Male">
-
-            <label for="Female-radio">Female</label>
-            <input id="Female-radio" type="checkbox" name="gender" value="Female">
-
-            <label for="Other-radio">Other</label>
-            <input id="blah-radio" type="checkbox" name="gender" value="Other"> -->
-
             <textarea name="name" rows="8" cols="80"></textarea>
             <input id="send-btn" type="submit" name="" value="Send">
         </form>

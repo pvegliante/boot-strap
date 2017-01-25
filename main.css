@@ -1,12 +1,16 @@
+html {}
+
 body {
     margin: 0;
+    background-color: #dbe8fc;
+    background-image: url("./images/Collage1.jpg");
+    background-size: cover;
+    font: white;
 }
 
-.landing {
-    background-image: url('./images/monster.jpg');
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
+.navbar {
+    margin-bottom: 0;
+    font: black;
 }
 
 .yellow-button {
@@ -18,13 +22,33 @@ section {
 }
 
 section#About {
-    background-color: #;
+    padding: 50px 0px 0px 0px;
+    color: white;
+    background-image: url("./images/matrix.gif");
+    background-size: cover;
+    opacity: .5;
+}
+
+section#About img {
+    width: 100%;
+}
+
+@media all and (min-width: 768px) {
+    section#About img {
+        width: 50%;
+    }
+}
+
+section#Portfolio {
+    padding-top: 0px;
 }
 
 section#Portfolio #gallery {
     max-width: 900px;
     margin: auto;
     text-align: center;
+    color: white;
+    padding: 20px;
 }
 
 #gallery figure {
@@ -34,6 +58,7 @@ section#Portfolio #gallery {
 
 #gallery figure img {
     width: 100%;
+    padding: 20px;
 }
 
 #gallery figcaption {
@@ -56,6 +81,10 @@ section#Portfolio #gallery {
     width: 100%;
 }
 
+section#Resume {
+    color: white;
+}
+
 section#Resume img {
     display: inline-block;
     max-width: 100px;
@@ -71,7 +100,11 @@ img#resgallery {
 }
 
 section.purple-title h2 {
-    color: purple;
+    color: white;
+}
+
+section#Contact {
+    color: white;
 }
 
 button#BigRedButton {
@@ -83,7 +116,7 @@ button#BigRedButton {
     border: none;
     cursor: pointer;
     box-shadow: 0 3px 0 0px rgb(50, 50, 50);
-    color: #fff;
+    color: white;
     text-shadow: 1px 1px 1px #000;
     transition: all .3s;
     left: 43.2%;
