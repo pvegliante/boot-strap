@@ -1,0 +1,16 @@
+.catBoy {
+  z-index: 1;
+  top: 50%;
+  right: 50%;
+  position: fixed;
+  background: url(./pnd/runningkid.png) 0 0 no-repeat;
+  background-size: cover;
+  height: 96px;
+  width: 70px;
+  animation: boy 1500ms steps(6) infinite;
+}
+
+@keyframes boy {
+  from {background-position: 0px 0px}
+  to {background-position: -422px 0px}
+}

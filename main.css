@@ -10,6 +10,7 @@ body {
 }
 
 .navbar {
+  letter-spacing: 5px;
     margin-bottom: 0;
     font: black;
 }
@@ -46,12 +47,18 @@ section#Portfolio {
     padding-top: 0px;
 }
 
+#Portfolio h2 {
+  padding-left: 50px;
+  letter-spacing: 5px;
+}
+
 section#Portfolio #gallery {
     max-width: 900px;
     margin: auto;
     text-align: center;
     color: white;
     padding: 20px;
+
 }
 
 #gallery figure {
@@ -88,6 +95,11 @@ section#Resume {
     color: white;
 }
 
+#Resume h2 {
+  padding-left: 50px;
+  letter-spacing: 5px;
+}
+
 section#Resume img {
   display: flex;
     display: inline-block;
@@ -110,6 +122,25 @@ section.purple-title h2 {
 section#Contact {
     color: white;
 }
+
+#Contact h2 {
+  letter-spacing: 5px;
+  padding-left: 50px;
+}
+
+#flappy {
+  height: 180px;
+}
+
+
+#dice-Btn:hover,
+#weather-btn:hover,
+#piano-Btn:hover,
+#chest-Btn:hover,
+#flappy-Btn:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
 
 button#BigRedButton {
     background-color: rgb(101, 214, 21);
