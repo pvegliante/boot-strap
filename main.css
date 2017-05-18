@@ -120,7 +120,8 @@ section.purple-title h2 {
 
 .first {
   font-family: 'Roboto Condensed', sans-serif;
-  animation: slide-right-fade-in .5s .5s forwards;
+  animation: slide-right-fade-in 1s .5s forwards;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.33, 1.27);
   opacity: 0;
 }
 
@@ -135,7 +136,8 @@ section.purple-title h2 {
 
 .second {
   font-family: 'Roboto Condensed', sans-serif;
-  animation: slide-left-fade-in .5s 1s forwards;
+  animation: slide-left-fade-in 1s 1s forwards;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.33, 1.27);
   opacity: 0;
   padding-left: 15rem;
 }
@@ -154,6 +156,7 @@ section.purple-title h2 {
 .catchy h3 {
   font-size: 5rem;
   animation: zoom-in-fade-in 1s 1.5s forwards;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.33, 1.27);
   opacity: 0;
 }
 
