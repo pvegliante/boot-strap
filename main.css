@@ -25,12 +25,11 @@ section {
 
 section#About {
     padding: 50px 0px 0px 0px;
-    color: white;
     background-image: url("./images/ITpic2.jpg");
     height: 100vh;
     width: auto;
     background-size: cover;
-    opacity: .5;
+    /*opacity: .5;*/
 }
 
 section#About img {
@@ -119,6 +118,45 @@ section.purple-title h2 {
     color: white;
 }
 
+.first {
+  font-family: 'Roboto Condensed', sans-serif;
+  animation: slide-right-fade-in .5s .5s forwards;
+  opacity: 0;
+}
+
+.first,
+.second,
+ h1 {
+  color: white;
+  font-size: 10rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px black;
+}
+
+.second {
+  font-family: 'Roboto Condensed', sans-serif;
+  animation: slide-left-fade-in .5s 1s forwards;
+  opacity: 0;
+  padding-left: 15rem;
+}
+
+.catchy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5rem;
+  margin-top: 5rem;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  max-width: 50%;
+}
+
+.catchy h3 {
+  font-size: 5rem;
+  animation: zoom-in-fade-in 1s 1.5s forwards;
+  opacity: 0;
+}
+
 section#Contact {
     color: white;
 }
@@ -132,7 +170,6 @@ section#Contact {
   height: 180px;
 }
 
-
 #dice-Btn:hover,
 #weather-btn:hover,
 #piano-Btn:hover,
@@ -140,7 +177,6 @@ section#Contact {
 #flappy-Btn:hover {
   box-shadow: 0px 0px 10px white;
 }
-
 
 button#BigRedButton {
     background-color: rgb(101, 214, 21);
@@ -212,4 +248,37 @@ form input[type="submit"]:hover {
 
 #chestimg {
   height: 180px;
+}
+
+@keyframes slide-right-fade-in {
+  0% {
+    transform : translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform : translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-left-fade-in {
+  0% {
+    transform : translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform : translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes zoom-in-fade-in {
+  from{
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
